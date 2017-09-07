@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppMap</string>
+    <string name="map_type_none">None</string>
+    <string name="map_type_normal">Normal</string>
+    <string name="map_type_terrain">Terrain</string>
+    <string name="map_type_satellite">Satellite</string>
+    <string name="map_type_hybrid">Hybrid</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="autorize">Autorize</string>
+    <string name="addMarker">Add Marker</string>
+</resources>
