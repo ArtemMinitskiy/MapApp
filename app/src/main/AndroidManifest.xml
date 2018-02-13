@@ -3,8 +3,8 @@
     package="com.example.artem.mapapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />\\Позволяет приложениям получать доступ к информации о сетях.
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />\\Позволяет программе писать на внешнее хранилище.
 
     <permission
         android:name="com.example.artem.mapapp.permission.MAPS_RECIEVE"
@@ -17,8 +17,8 @@
         android:glEsVersion="0x0020000"
         android:required="true" />
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />\\Позволяет приложению получать доступ к точному местоположению
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />\\Приложение сможет получать доступ к приблизительному местоположению.
 
     <application
         android:allowBackup="true"
@@ -40,7 +40,7 @@
             android:value="AIzaSyCjxxcvWFkJrpnKjoiun3tHDKx42lXcOQ0" />
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
+            android:value="@integer/google_play_services_version" />\\номер версии служб Google Play
 
         <activity android:name=".MapActivity"></activity>
     </application>
